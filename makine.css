@@ -1,0 +1,77 @@
+.satir {
+    display: flex;
+    flex-direction: row;
+
+    gap: 2px; /* gap=boşluk*/
+}
+.kutu {
+    height:64px;
+    width: 64px;
+
+    background-color: rgb(51,50,70);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border:0;
+
+    /*transition-property: all; hangi özelliği değişirse değişsin animasyon olarak değişsin.*/
+    /*transition-duration: 300ms; ne kadar sürede değişeceğini belirler.*/
+}
+.kutu:hover {
+    background-color: rgba(51,50,70,0.5);
+
+    cursor: pointer;
+    /*opacity: 0.6; 0-1 aeasında değerler alır.opaklığı belirler.hepsini matlaştırır.
+    transform: scale(1.1); büyütme.*/
+}
+.operator {
+background-color: rgb(64,63,87);
+color: rgb(210,160,0);
+}
+.esittir {
+    background-color: rgb(210,160,0);
+    height:100%;
+   /* border-bottom-right-radius: 8px;*/
+}
+.esittir:hover {
+    background-color:rgba(210,160,0,0.5) ;
+}
+.esittir-sol-taraf {
+    max-width: 191.5px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 2px;
+}
+.sifirla {
+    border-top-left-radius: 16px;
+}
+.silme {
+    border-top-right-radius: 16px;
+}
+.makine {
+    background-color:rgb(103, 102, 134) ;
+    height: 512px;
+    width: 256px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    gap: 2px;
+
+    border-radius: 8px;
+    overflow: hidden; /*taşan kısımları gizle*/
+}
+.ifade {
+    color:white;
+    font-size: xx-large;
+    text-align: end;
+    padding-right: 12px;
+}
+
+

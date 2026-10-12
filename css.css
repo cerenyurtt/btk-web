@@ -1,0 +1,75 @@
+.merhaba{
+
+}
+
+
+img{
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    border: 4px solid rgb(7, 97, 40);
+
+    margin-left: 12px;
+    margin-right: 12px;
+
+}
+
+.blue-image{
+    border-color: blue;
+}
+.red-image{
+    border-color: red;
+
+    display:none; 
+}
+
+p{
+    margin:0;
+    display: inline-block;
+    width: 128px;
+    height:128px;
+    background-color: yellowgreen;
+
+}
+
+.efekt{
+    background-color: lightblue;
+    width: 128px;
+    height: 128px;
+    padding: 20px;
+}
+.guzel-button:hover{
+    background-color: darkblue;
+    background-image: unset;
+}
+
+.guzel-button:active{
+    background-color: aquamarine;
+    color: black;
+   }
+
+.guzel-button{
+    background-image: linear-gradient(blue,purple) ;
+    color: white;
+    padding: 0;
+    border: 0;
+}
+.bolge-1{
+    width: 80px;
+    height: 80px;
+    background-color: salmon;
+
+    transition-duration: 0.15s;
+
+   /* transform: rotate(45deg) translate(80px,-20px);*/
+}
+.bolge-1:hover{
+    transform: scale(1.2,1.2);
+}
+
+.bolge-2{
+    padding: 4px;
+    border: 1px solid black;
+
+    overflow:hidden;
+}

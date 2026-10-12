@@ -1,0 +1,37 @@
+.dis-cerceve{
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+}
+.resim{
+    width: 250px;
+    transition-duration: (0.15s);
+    opacity: 0.5;
+}
+.resim:hover{
+    transform: scale(1.2,1.2);
+    opacity: 1;
+}
+.resim-cerceve{
+ overflow: hidden;
+ background-color: black;
+}
+.dizi-image{
+    transition-duration: (0.15s) ;
+    overflow: hidden;
+}
+.Baslik{
+    color:darkmagenta
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.Konu{
+    color: blueviolet;
+}
+.Puan{
+    color: chocolate;
+    font-size: 20px;
+}
+.puan:hover{
+    color: yellowgreen;
+}

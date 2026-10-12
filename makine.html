@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+<title>Basit Hesap Makinesi</title>
+<link rel="stylesheet" href="/makine.css"/>
+<script src="/makine.js" defer></script>
+</head>
+
+<body>
+   Hesap makinesi kodluyorum.
+<a href="/gecmis.html">geçmişe git</a>
+<div class="makine">
+    <div id="ifade" class="ifade">1+2</div>
+   <div class="satir">
+    <button class="kutu operator sifirla" onclick="sifirla('C')">C</button>
+    <button class="kutu operator" onclick="tusaBas('/')">/</button>
+    <button class="kutu operator" onclick="tusaBas('*')">*</button>
+    <button class="kutu operator silme" onclick="sil('⌫')">⌫</button>
+  </div>
+
+   <div class="satir">
+    <button class="kutu" onclick="tusaBas('7')">7</button>
+    <button class="kutu" onclick="tusaBas('8')">8</button>
+    <button class="kutu" onclick="tusaBas('9')">9</button>
+    <button class="kutu operator" onclick="tusaBas('-')">-</button>
+   </div>
+
+   <div class="satir">
+    <button class="kutu" onclick="tusaBas('4')">4</button>
+    <button class="kutu" onclick="tusaBas('5')">5</button>
+    <button class="kutu" onclick="tusaBas('6')">6</button>
+    <button class="kutu operator" onclick="tusaBas('+')">+</button>
+   </div>
+
+   <div class="satir">
+   <div class="esittir-sol-taraf">
+   <div class="satir">
+    <button class="kutu" onclick="tusaBas('1')">1</button>
+    <button class="kutu" onclick="tusaBas('2')">2</button>
+    <button class="kutu" onclick="tusaBas('3')">3</button>
+   </div>
+
+   <div class="satir">
+    <button class="kutu" onclick="ac('AC')">AC</button>
+    <button class="kutu" onclick="tusaBas('0')">0</button>
+    <button class="kutu" onclick="tusaBas('.')">.</button>
+   </div>
+ </div>
+   <button class=" kutu esittir" onclick="esittir('=')">=</button>
+</div>
+
+  </body>
+</html>

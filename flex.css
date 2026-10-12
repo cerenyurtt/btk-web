@@ -1,0 +1,20 @@
+.flex-container{
+    display: flex;
+
+    height:200px;
+    width: 800px;
+    border: 2px solid black;
+
+    flex-direction: row;
+    justify-content: end;
+}
+.flex-child{
+    height: 60px;
+    width: 60px;
+    background-color: rebeccapurple;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
